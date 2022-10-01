@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif, Arial, Helvetica;
+    color: var(--brand-colors);
+}
+
+:root {
+    --brand-color: #2196F3;
+    --brand-colors: #212121;
+    --brandColor: #757575;
+}
+
+/* .link {} */
+
+/* estilos para enlaces de navegacion */
+.link-webStudio {
+    color: var(--brand-color);
+    font-size: 26px;
+    line-height: 1.1;
+}
+
+.link-navigation {
+    color: var(--brand-colors);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.link-navigation:hover {
+    color: var(--brand-color);
+}
+
+.link-contact {
+    color: var(--brandColor);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.link-contact:hover {
+    color: var(--brand-color);
+}
+
+/* estilos para titulos */
+.paragraph-title {
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+/* estilos para los parrafos */
+.paragraph {
+    color: var(--brandColor);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* estilo para los boteones de navegacion */
+.button {
+    cursor: pointer;
+}
+
+/* .images {} */
